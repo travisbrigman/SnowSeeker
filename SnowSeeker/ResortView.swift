@@ -27,6 +27,7 @@ struct ResortView: View {
                         Text(resort.imageCredit)
                             .font(.caption)
                             .foregroundColor(.secondary)
+                            .padding(.trailing)
                     }
                 }
                 
